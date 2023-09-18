@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List OOP</title>
+    <script src="https://kit.fontawesome.com/96270d5280.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="top-section">
+            <h1 class="header">Todo list</h1>
+            <div class="input-area">
+                <input class="task-input" type="text" placeholder="What are you planning today?">
+                <button class="add-button">add</button>
+            </div>
+        </div>
+        <div class="lower-section">
+            <div class="lower-title">
+                <div class="task-heading">Tasks: <span class="task-number">0</span></div>
+                <p class="error-txt"></p>
+            </div>
+            <ul>
+                <!-- <li>wynies smiecie
+                    <div>
+                        <button class="complete-btn option-btn"><i class="fa-solid fa-check"></i></button>
+                        <button class="edit-btn option-btn">EDIT</button>
+                        <button class="delete-btn option-btn"><i class="fa-solid fa-trash"></i></button>
+
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="edit-window">
+        <h3 class="edit-header">Edit task</h3>
+        <input type="text" class="edit-input" placeholder="Type new task...">
+        <div class="button-area">
+            <button class="accept-btn-edit">Accept</button>
+            <button class="cancel-btn-edit">Cancel</button>
+        </div>
+    </div>
+   <script type="module" src="start.js"></script>
+   
+</body>
+
+</html>
